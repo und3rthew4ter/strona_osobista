@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #1e1e1e;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 18px;
+    height:35px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(241, 170, 39);
+    font-size: 19px;
+    height: 34px;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section h1, section h2 {
+    color: darkorange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #1e1e1e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio*/
+#top_cv {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#fotka {
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 50px; 
+}
+
+#dane_cv {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top:-20px;
+}
+
+#top_cv p {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #ff8c00; /* Pomarańczowy kolor nagłówka */
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+
+
+#umiejetnosci_doswiadczenie {
+    display: flex; 
+    margin-left: 45px;
+}
+
+#umiejetnosci{
+    width: 20%;
+}
+#doswiadczenie, #wyksztalcenie {
+    padding: 20px;
+    width: 70%;
+
+}
+#doswiadczeniezawodowe, #wyksztalcenielista{
+    margin-left: 30% ;
+}
+
+#doswiadczenie p, #wyksztalcenie {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+#zestawumiejetnosci, #doswiadczenie h2 {
+    color: #ff8c00;
+    margin-bottom: 10px;
+}
+
+#umiejetnosci ul {
+    padding: 0;
+    margin-left: 20px;
+    margin-top: -7px;
+}
+
+#umiejetnosci ul li {
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+
+
+#mojelinki {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 1s ease;
+}
+
+#mojelinki:hover {
+    color: darkorange;
+}
